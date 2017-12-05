@@ -1,3 +1,16 @@
+Änderungen mit Firmwareversion 2016.2.7.1 basierend auf Gluon 2016.2.7 
+================================================================
+
+Freifunk Nord spezifische Änderungen:
+-------------------------------------
+* Das Knotenforumular wurde abgeschaltet. Alle Verweise wurden aus der Firmware entfernt. Die Koordinaten und Kontaktionformationen
+  werden wieder im Knoten gespeichert und können auch nur noch dort geändert werden.
+* Bestehende Koordinaten und Kontaktinformationen werden mit einen Transfer Paket vom Server geladen und im Knoten gespeichert.
+  dabei werden keine Kontaktinformationen veröffentlicht. Wer dies möchte kann seine Email Adresse im Knoten eintragen, diese wird
+  dann in der Knotenkarte angezeigt.
+* Der Autoupdate-Cleaner bereinigt die autoupdate.cfg im Knoten und entfernt dabei ggf. vorhandene Altlasten.
+
+
 Änderungen mit Firmwareversion 2016.2.7 basierend auf Gluon 2016.2.7 
 ================================================================
 
