@@ -23,11 +23,6 @@ GLUON_SITE_PACKAGES := \
 	iptables \
 	haveged
 
-# from freifunk nord
-GLUON_SITE_PACKAGES += \
-  ffffng-transfer-once \
-  gluon-au-cleanup
-
 # from eulenfunk:
 GLUON_SITE_PACKAGES += \
 	gluon-quickfix \
