@@ -1,29 +1,29 @@
 # This file allows specifying additional repositories to use
 # when building gluon.
 
-#	for each feed name given, add the corresponding PACKAGES_* lines
+# for each feed name given, add the corresponding PACKAGES_* lines
 GLUON_SITE_FEEDS='ffki ffhh roamguide eulenfunk ssidchanger button'
 
-#	the  git repository from where to clone the package feed
-PACKAGES_FFKI_REPO=git://github.com/freifunk-kiel/ffki-packages.git
-PACKAGES_FFHH_REPO=git://github.com/freifunkhamburg/ffhh-packages.git
-PACKAGES_ROAMGUIDE_REPO=https://github.com/sargon/roamguide.git
-PACKAGES_EULENFUNK_REPO=https://github.com/Freifunk-Nord/eulenfunk-packages
-PACKAGES_SSIDCHANGER_REPO=https://github.com/freifunk-nord/gluon-ssid-changer.git
-PACKAGES_BUTTON_REPO=https://github.com/rubo77/ffm-packages
-
-#	the version/commit of the git repository to clone
+PACKAGES_FFKI_REPO=git://github.com/freifunk-kiel/ffki-packages
 PACKAGES_FFKI_COMMIT=9eebee4ac4d5a1db63c770de628974f6c30d4f57
-PACKAGES_FFHH_COMMIT=c9d083f52384c2a52c303924de3960705c7c945b
-PACKAGES_ROAMGUIDE_COMMIT=859cf67417c14ae37e3e8201f438df315651adf9
-PACKAGES_EULENFUNK_COMMIT=7d8ed92ca9501410d14f8036e7bbd9f56e638fca
-PACKAGES_SSIDCHANGER_COMMIT=4bef5af47b1a74b3cb58769634e79e237972dc3c
-PACKAGES_BUTTON_COMMIT=a4ce5460361bfd584f540d02d37c00db5fd156eb
-
-# the branch to check out
 PACKAGES_FFKI_BRANCH=2016.2.x
-PACKAGES_FFHH_BRANCH=master
+
+PACKAGES_ROAMGUIDE_REPO=https://github.com/sargon/roamguide.git
+PACKAGES_ROAMGUIDE_COMMIT=859cf67417c14ae37e3e8201f438df315651adf9
 PACKAGES_ROAMGUIDE_BRANCH=master
+
+PACKAGES_EULENFUNK_REPO=https://github.com/Freifunk-Nord/eulenfunk-packages
+PACKAGES_EULENFUNK_COMMIT=7d8ed92ca9501410d14f8036e7bbd9f56e638fca
 PACKAGES_EULENFUNK_BRANCH=v2016.2.x
+
+PACKAGES_SSIDCHANGER_REPO=https://github.com/freifunk-nord/gluon-ssid-changer
+PACKAGES_SSIDCHANGER_COMMIT=4bef5af47b1a74b3cb58769634e79e237972dc3c
 PACKAGES_SSIDCHANGER_BRANCH=2016.2.x
+
+PACKAGES_BUTTON_REPO=https://github.com/rubo77/ffm-packages
+PACKAGES_BUTTON_COMMIT=a4ce5460361bfd584f540d02d37c00db5fd156eb
 PACKAGES_BUTTON_BRANCH=2016.2.x
+
+PACKAGES_FFHH_REPO=git://github.com/freifunkhamburg/ffhh-packages.git
+PACKAGES_FFHH_COMMIT=c9d083f52384c2a52c303924de3960705c7c945b
+PACKAGES_FFHH_BRANCH=master
