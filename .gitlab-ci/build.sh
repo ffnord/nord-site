@@ -383,12 +383,6 @@ upload() {
       ln -sf \
           "${DEPLOYMENT_PATH}/${TARGET}/${RELEASE}/factory" \
           "${DEPLOYMENT_PATH}/${TARGET}/"
-  ${SSH} \
-      ${DEPLOYMENT_USER}@${DEPLOYMENT_SERVER} \
-      -- \
-      ln -sf \
-          "${DEPLOYMENT_PATH}/${TARGET}/${RELEASE}/other" \
-          "${DEPLOYMENT_PATH}/${TARGET}/"
 }
 
 prepare() {
