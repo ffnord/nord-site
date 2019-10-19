@@ -1,5 +1,18 @@
-Änderungen mit Firmwareversion 2016.2.7.2 basierend auf Gluon 2016.2.7 
-================================================================
+Änderungen mit Firmwareversion 2016.2.7.2 basierend auf Gluon 2016.2.x 
+======================================================================
+
+Freifunk Nord spezifische Änderungen:
+-------------------------------------
+* Das Transfer-Paket und der Autoupdate-Cleaner wurden entfernt
+* Es wird jetzt ein default Bandbreitenlimit gesetzt, wenn man das Feature im Config Mode aktiviert
+
+Generelle Änderungen an Gluon 2016.2.x
+--------------------------------------
+* Allow upgrades to current CPE210/510 images based on upcoming Gluon master (Commit 35c9f9ae)
+
+
+Änderungen mit Firmwareversion 2016.2.7.1 basierend auf Gluon 2016.2.7 
+======================================================================
 
 Freifunk Nord spezifische Änderungen:
 -------------------------------------
@@ -12,7 +25,7 @@ Freifunk Nord spezifische Änderungen:
 
 
 Änderungen mit Firmwareversion 2016.2.7 basierend auf Gluon 2016.2.7 
-================================================================
+====================================================================
 
 Freifunk Nord spezifische Änderungen:
 -------------------------------------
